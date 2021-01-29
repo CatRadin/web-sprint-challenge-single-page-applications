@@ -10,6 +10,9 @@ const initialFormValues = {
   name: '',
   PizzaSize: '',
   bacon: false,
+  pepperoni: false,
+  mozzarella: false,
+  cheddar: false,
 
 }
 

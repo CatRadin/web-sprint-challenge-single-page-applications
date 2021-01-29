@@ -44,9 +44,10 @@ export default function Form(props) {
                          <option value='Extra Large'>Extra Large</option>
                          </select> <br />
                          <div className='tan-bar2'></div>
-                         <h3>Toppings</h3>
+                         
+                         <h4>Choose meats:</h4>
                          <div className="toppings">
-                             <h4>Choose meats:</h4>
+                             
                             <label>
                                 Bacon: 
                              </label>
@@ -56,7 +57,42 @@ export default function Form(props) {
                              checked={values.bacon}
                              onChange={onchange}
                              ></input>
+                             <label>
+                                Pepperoni: 
+                             </label>
+                             <input
+                             type='checkbox'
+                             name='pepperoni'
+                             checked={values.pepperoni}
+                             onChange={onchange}
+                             ></input>
                          </div>
+
+                         <div className='tan-bar2'></div>
+                            <h4>Choose cheese:</h4>
+                         <div className="toppings">
+                             
+                            <label>
+                            Mozzarella: 
+                             </label>
+                             <input
+                             type='checkbox'
+                             name='mozzarella'
+                             checked={values.mozzarella}
+                             onChange={onchange}
+                             ></input>
+                             <label>
+                                Cheddar: 
+                             </label>
+                             <input
+                             type='checkbox'
+                             name='cheddar'
+                             checked={values.cheddar}
+                             onChange={onchange}
+                             ></input>
+                         </div>
+
+
                 </form>
                 </div>
             </div>

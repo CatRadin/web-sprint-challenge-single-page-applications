@@ -137,3 +137,13 @@ label {
   height: 3%;
   background: #3d405b;
 }
+
+.toppings {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.form-block h4 {
+  font-size: 1.3rem;
+}
