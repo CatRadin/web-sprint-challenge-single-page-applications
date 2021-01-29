@@ -2,6 +2,7 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 body {
   height: 100vh;
@@ -93,10 +94,46 @@ body {
   width: 60%;
   height: 100vh;
   background: #8f3b24;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tan-bar {
   width: 100%;
   height: 6%;
+  background: #3d405b;
+}
+
+.form-block h3 {
+  font-size: 3rem;
+}
+
+.form-inner-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+
+label {
+  font-size: 1.4rem;
+  margin-left: 2rem;
+}
+
+.tan-bar2 {
+  margin-top: 3rem;
+  width: 100%;
+  height: 3%;
   background: #3d405b;
 }
