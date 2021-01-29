@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Router, Link } from "react-router-dom";
 import Form from "./componants/Form"
 import Home from "./componants/Home"
 
@@ -13,9 +13,16 @@ const App = () => {
   return (
   <div className="App">
       
-        
-          <Form />
-       
+      <Router>
+       <Switch>
+          <Route path="/pizza">
+            <Form />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+    </Router>
     </div>
  );
 };
