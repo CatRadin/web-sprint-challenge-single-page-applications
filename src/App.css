@@ -107,6 +107,7 @@ body {
 
 .form-block h3 {
   font-size: 3rem;
+  background: #3d405b;
 }
 
 .form-inner-box {
@@ -146,4 +147,34 @@ label {
 
 .form-block h4 {
   font-size: 1.3rem;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn button {
+  margin-top: 1rem;
+  border: none;
+  background-color: #3d405b;
+  color: #f4f1de;
+  padding: 0.6rem;
+
+  font-size: 1.5rem;
+}
+
+.order-printer {
+  width: 60%;
+  background: #8f3b24;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-printer h2 {
+  color: #3d405b;
+  background: #f4e4de;
+  font-size: 3rem;
 }

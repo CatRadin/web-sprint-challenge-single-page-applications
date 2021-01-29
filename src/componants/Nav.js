@@ -12,7 +12,7 @@ export default function Form(props) {
         <h2>Lambda <span className='red-color'>Eats</span></h2>
         <div className='link-holder'>
         <Link to='/'>Home</Link>
-        <Link to='/help'>Help</Link>
+        
         </div>
     </div>
     
